@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*-------------------
+-------Menu Bar-----*/
+body{
+    background: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    position: relative;
+}
+
+label{
+    position: absolute;
+    right: 20px;
+}
+
+.slideBackground{
+    background-color: #FEEAE9;;
+}

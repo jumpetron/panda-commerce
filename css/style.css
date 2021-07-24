@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 
 /* Fonts */
@@ -9,20 +10,32 @@
 
 /*-------------------
 -------Menu Bar-----*/
-body{
-    background: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
+
+
+.hero-slider{
+    background: #FEEAE9;
+    border-radius: 30px;
 }
 
-form{
-    position: relative;
+
+#watch{
+    border-radius: 20px;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+#bag{
+    border-radius: 20px;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+#shoes{
+    border-radius: 20px;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
 }
 
-label{
-    position: absolute;
-    right: 20px;
+.shop-card{
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.slideBackground{
-    background-color: #FEEAE9;;
+.subscribe-section{
+    border-radius: 20px;
 }
